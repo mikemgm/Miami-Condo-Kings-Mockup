@@ -132,6 +132,27 @@ a:hover
     text-align: center;
     font-size: 12px;
     width: 261px;
+    padding: 8px 8px;   
+} 
+
+.testimonial{
+    background-color: lightgrey;
+}
+
+#writeus{ 
+    margin: 5px;
+    text-align: center;
+    font-size: 12px;
+    width: 261px;
+    padding: 8px 8px; 
+
+}
+
+#message{
+    margin: 5px;
+    text-align: center;
+    font-size: 12px;
+    width: 240px;
     padding: 8px 8px;
-    
+    background-color: lightgrey;
 }
