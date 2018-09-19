@@ -155,7 +155,7 @@ a:hover
 
 .testimonial img{
     height: 175px;
-    width: 242px;
+    width: 100%;
     border-radius: 50%;
 } 
 
@@ -168,14 +168,17 @@ a:hover
 
 #steve{
     padding: 50px;
+    width: calc(100% / 3);
 }
 
 #businessman{
-    padding: 50px;    
+    padding: 50px;  
+    width: calc(100% / 3);  
 } 
 
 #hippie{
     padding: 50px;
+    width: calc(100% / 3);
 } 
 
 .contact{
