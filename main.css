@@ -4,6 +4,7 @@ body{
 
 .header{
     background-image:url(images/miami_skyline_display.jpg);
+    background-size: cover;
     color: aliceblue;
     height: 975px; 
     display: flex;
@@ -55,6 +56,7 @@ a:hover
 .sidetext{
     margin-top: 132px;
     margin-bottom: 75px;
+    font-size: 25px;
 }
 
 #bluetext{
@@ -107,7 +109,11 @@ a:hover
 }
 
 #howlong{
-    width: 425px
+    width: 425px;
+    font-size: 22px;
+}
+.howlong{
+    font-size: 25px;
 }
 .info{
     width: 200px;
@@ -154,7 +160,7 @@ a:hover
 }
 
 .testimonial img{
-    height: 175px;
+    height: 355px;
     width: 100%;
     border-radius: 50%;
 } 
@@ -169,16 +175,21 @@ a:hover
 #steve{
     padding: 50px;
     width: calc(100% / 3);
+    font-size: 25px;
 }
 
 #businessman{
     padding: 50px;  
     width: calc(100% / 3);  
+    font-size: 25px;
+
 } 
 
 #hippie{
     padding: 50px;
     width: calc(100% / 3);
+    font-size: 25px;
+
 } 
 
 .contact{
@@ -218,6 +229,46 @@ a:hover
     width: 100%;
 }
 
-@media (min-width: 600px) {
+/* // ---- MEDIA QUERIES --- */
+    @media (max-width: 992px){
+        
+        
+    }
     
-}
+    @media (max-width: 768px){
+        .home1{
+            width: 100%
+        } 
+        .home2{
+            width: 100%
+            
+        }
+        .home3{
+            width: 100%
+            
+        }
+        .home4{
+            width: 100%
+            
+        }
+        .home5{
+            width: 100%
+            
+        }
+        .home6{
+            width: 100%
+            
+        }
+        #view{
+            width: 10em;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+    
+    @media (max-width: 576px){
+        
+    
+    } 
