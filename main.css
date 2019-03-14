@@ -10,7 +10,10 @@ body{
 
 
 .bg-nav{
-background-color: #e6e6e6
+background-color: midnightblue;
+}
+#offset{
+    color: whitesmoke;
 }
 
 .navbar-nav li {
@@ -30,7 +33,7 @@ max-height: 50px;
 .jumbotron{
     background-image: url("images/miami-sky.jpg");
     background-size: cover;
-    height: 250px;
+    height: 830px;
     width: 100%;
     color: white;
     display: flex;
@@ -66,8 +69,12 @@ a:hover
     font-weight: 800;
 }
 #miamiBest{
-    font-size: 25px;
+    font-size: 55px;
     text-align: center;
+}
+
+#miamiText{
+    font-size: 27px;
 }
 
 #blueText{
@@ -113,7 +120,7 @@ a:hover
     font-size: 22px;
 }
 .howlong{
-    font-size: 25px;
+    font-size: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,7 +137,7 @@ a:hover
     margin: 5px;
     text-align: center;
     font-size: 12px;
-    width: 240px;
+    width: 350px;
     padding: 8px 8px;
     background-color: lightgrey;
 }
@@ -138,7 +145,7 @@ a:hover
     margin: 5px;
     text-align: center;
     font-size: 12px;
-    width: 240px;
+    width: 350px;
     padding: 8px 8px;
     background-color: lightgrey;
 } 
@@ -146,7 +153,7 @@ a:hover
     margin: 5px;
     text-align: center;
     font-size: 12px;
-    width: 240px;
+    width: 350px;
     padding: 8px 8px;
     background-color: lightgrey;
 } 
@@ -155,7 +162,7 @@ a:hover
     margin: 5px;
     text-align: center;
     font-size: 12px;
-    width: 240px;
+    width: 350px;
     padding: 8px 8px;
     background-color: lightgrey;
     height: 140px;
@@ -163,6 +170,7 @@ a:hover
 
 #submit{
     margin: 1rem 2rem;
+    width: 250px;
 }
 
 #viewAll{
@@ -174,7 +182,7 @@ a:hover
 
 
 
- @media (max-width: 1290px){
+ @media (max-width: 1500px){
     #navbarDiv{
         margin-right: 13rem;
     }
@@ -207,8 +215,8 @@ a:hover
     }
 
     #viewAll{
-        font-size: 6vh;
-        width: 17%;
+        font-size: 2vh;
+        width: 31%;
     } 
 
     #call{
